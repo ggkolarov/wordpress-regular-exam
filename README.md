@@ -7,4 +7,4 @@ It contains the following features:
 - Custom plugin;
 - Custom post type;
 - Custom taxonomy;
-- SASS for stylizing the pages - for starting listening SASS, please run this command: sass --watch scss:css -s compressed
+- SASS for stylizing the pages - for starting listening SASS, please run this command by opening in the terminal the assets folder: sass --watch sass/master.scss:css/master.css -s compressed

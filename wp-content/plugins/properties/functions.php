@@ -13,7 +13,7 @@ function home_update_views_count( $home_id ) {
 
     $view_count = get_post_meta( $home_id, 'views_count', true );
 
-    var_dump( $view_count );
+    // var_dump( $view_count );
 
     if ( ! empty( $view_count ) ) {
         $view_count = $view_count + 1;

@@ -24,3 +24,9 @@ function home_update_views_count( $home_id ) {
     update_post_meta( $home_id, 'views_count', $view_count );
 
 }
+
+function register_properties_menu() {
+    register_nav_menu( 'primary_menu', __( 'Main navigation', 'softuni-homes' ) );
+}
+
+add_action( 'after_setup_theme', 'register_properties_menu' );

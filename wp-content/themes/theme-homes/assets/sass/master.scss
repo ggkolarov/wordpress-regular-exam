@@ -284,3 +284,15 @@ a {
 		}
 	}
 }
+
+.header-nav-menu {
+	ul {
+		display: flex;
+		align-items: center;
+		list-style: none;
+
+		li {
+			margin: 0 .5rem;
+		}
+	}
+}

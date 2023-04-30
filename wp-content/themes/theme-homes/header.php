@@ -13,14 +13,13 @@
 
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class() ?>>
 	<div class="site-wrapper">
 		<header class="site-header">
             <?php if ( is_home() ) : ?>
                 <h1 class="site-title"><a href="<?php echo esc_url ( get_home_url() ); ?>">Properties Offers</a></h1>
 
                 <?php else : ?>
-                <p class="site-title"><a href="<?php echo esc_url ( get_home_url() ); ?>"><?php the_title(); ?></a>
-            </p>
+                <p class="site-title"><a href="<?php echo esc_url ( get_home_url() ); ?>">Properties Offers</a></p>
             <?php endif; ?>
 		</header>
